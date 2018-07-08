@@ -3,8 +3,8 @@ describe('Address Book', function() {
         thisContact;
 
         beforeEach(function() {
-
-
+            addressBook = new AddressBook();
+            thisContact = new Contact();
         });
 
     it('should be able to add a contact', function() {
